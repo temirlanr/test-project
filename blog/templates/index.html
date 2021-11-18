@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>Temirlan Rsanov</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'blog/style.css' %}">
+    </head>
+    <body>
+        <header>
+            <div class="name">
+                <h1>temirlan rsanov</h1>
+            </div>
+            <div class="main">
+                <ul>
+                    <li><a href="{% url 'blog:main_info' %}">main info</a></li>
+                    <li><a href="{% url 'blog:education' %}">education</a></li>
+                    <li><a href="{% url 'blog:experience' %}">experience</a></li>
+                    <li><a href="student_transcript.pdf">my student transcript</a></li>
+                </ul>
+            </div>
+            <div class="title">
+                <h1>about me</h1>
+            </div>
+        </header>
+    </body>
+</html>
