@@ -2,12 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\blog",
+    "\\blog\\migrations",
     "\\blog\\static",
     "\\blog\\static\\blog",
     "\\blog\\templates",
     "\\playground",
+    "\\playground\\migrations",
     "\\testproject"
   ],
-  "SelectedNode": "\\blog\\models.py",
+  "SelectedNode": "\\playground\\models.py",
   "PreviewInSolutionExplorer": false
 }
